@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#refresh{
+    position: fixed;
+    top: 20px;
+
+}
+
+.container{
+    background-color: beige;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 480px;
+    height: 480px;
+
+}
+
+.pixel{
+    background-color:cornflowerblue;
+    flex:0 1 6.25%;
+    filter: brightness(1);
+}
+
+.pixel:hover{
+    background-color:rgb(90, 118, 168);
+}
