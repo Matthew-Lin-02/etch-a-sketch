@@ -16,7 +16,6 @@ function addPixels(pixelsPerSide){
         div.addEventListener('mouseover', darken);
         container.appendChild(div)  
     }
-    addPixelEventListeners
 }
 
 function refresh(){
